@@ -1,0 +1,30 @@
+{
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "pnpm install"
+    }
+  ],
+  "tasks": {
+    "dev": {
+      "name": "Development Server",
+      "command": "pnpm dev",
+      "runAtStart": true,
+      "preview": {
+        "port": 3333
+      }
+    },
+    "build": {
+      "name": "Build Project",
+      "command": "pnpm build"
+    },
+    "lint": {
+      "name": "Lint Code",
+      "command": "pnpm lint"
+    },
+    "test": {
+      "name": "Run Tests",
+      "command": "pnpm test"
+    }
+  }
+}
