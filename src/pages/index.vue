@@ -7,12 +7,15 @@ const name = ref('Element Plus Demo')
 </script>
 
 <template>
-  <div class="w-screen h-screen flex flex-col items-center justify-center">
+  <Main>
     <h1 class="text-lg mb-4">
       {{ name }}
     </h1>
     <div>
+      <el-button type="primary" size="large" class="mr-4" @click="toggleDark()">
+        {{ isDark ? 'Light Mode' : 'Dark Mode' }}
+      </el-button>
       <el-input v-model="name" size="large" clearable class="!w-60" placeholder="please input" />
     </div>
-  </div>
+  </Main>
 </template>
