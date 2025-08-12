@@ -1,6 +1,6 @@
 # element-plus-demo
 
-Sandbox demo fork of vitesse-lite. 
+Sandbox demo fork of vitesse-lite.
 💻 Preivew: https://element-plus-demo-rho.vercel.app
 
 #### Try it with code sandbox
